@@ -11,7 +11,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}],external_stylesheets=external_stylesheets)
 server = app.server
-app.title = 'XML Miner'
+app.title = 'KnEDLe Miner'
 app.layout = create_layout(app)
 main_callbacks(app)
 

@@ -40,7 +40,7 @@ def create_layout(app):
     html.Link(href="https://fonts.googleapis.com/css2?family=Raleway&display=swap", rel="stylesheet"),
     html.Div([
         html.Div([
-            html.H1('XML Miner', className='card-title'),
+            html.H1('KnEDLe Miner', className='card-title'),
             html.H2('Extrator de anotações feitas no NidoTat', className='card-subtitle'),
             html.H2('e armazenadas em arquivos XML', className='card-subtitle'),
             dcc.Upload(
